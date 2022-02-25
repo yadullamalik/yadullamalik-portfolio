@@ -1,4 +1,4 @@
-# Web Developer React Portfolio ⚡️ [![GitHub](https://img.shields.io/github/license/kaustubhai/portfolio-template?color=blue)](https://github.com/kaustubhai/portfolio-template/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/kaustubhai/portfolio-template)](https://github.com/kaustubhai/portfolio-template/stargazers)
+# Web Developer React Portfolio ⚡️ [![GitHub](https://img.shields.io/github/license/kaustubhai/portfolio-template?color=blue)](https://yadullamalik-portfolio.netlify.app/) [![GitHub stars](https://yadullamalik-portfolio.netlify.app/)](https://yadullamalik-portfolio.netlify.app/)
 
 ## A clean, beautiful and responsive react portfolio template for Developers!
 
@@ -36,7 +36,7 @@ If you created something awesome and want to contribute then feel free to open a
 ✔️ Contact Form\
 ✔️ Social Profile\
 
-To view a live example, **[click here](https://kaustubhai.netlify.app/)**.
+To view a live example, **[click here](https://yadullamalik-portfolio.netlify.app/)**.
 
 
 ## Getting Started
