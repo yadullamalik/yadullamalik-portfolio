@@ -7,6 +7,7 @@ const HeaderButton = () => {
         <a
           href="https://drive.google.com/file/d/14vkWQueNF5_qV5vBsVtYvDhnPmuaPyhF/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
         >
           <button className="see">
             Resume<i className="fas fa-eye"></i>
