@@ -1,43 +1,43 @@
-
 /* Add your profile image here */
-.Photo{
-    background-image: url('https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-}
-/* Projects Photo */
-.project1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+one');
-    cursor: none;    
-}
-.project2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+two');
+.Photo {
+    background-image: url("https://i.postimg.cc/6pKwMhZP/IMG-20220109-112442.jpg");
+  }
+  /* Projects Photo */
+  .project1 {
+    background-image: url("https://i.postimg.cc/T1Yc3nM3/Screenshot-137.png");
     cursor: none;
-}
-.project3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+three');
+  }
+  .project2 {
+    background-image: url("https://i.postimg.cc/P5S13g1P/Screenshot-136.png");
     cursor: none;
-}
-.project4{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+four');
+  }
+  .project3 {
+    background-image: url("https://i.postimg.cc/P5S13g1P/Screenshot-136.png");
     cursor: none;
-}
-.project5{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
+  }
+  .project4 {
+    background-image: url("https://via.placeholder.com/400x600.png?text=Project+four");
     cursor: none;
-}
-.project6{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
+  }
+  .project5 {
+    background-image: url("https://via.placeholder.com/400x600.png?text=Project+five");
     cursor: none;
-}
-/* Miscelaneous Activities photo */
-.misc1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
+  }
+  .project6 {
+    background-image: url("https://via.placeholder.com/400x600.png?text=Project+six");
     cursor: none;
-}
-.misc2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
+  }
+  /* Miscelaneous Activities photo */
+  .misc1 {
+    background-image: url("https://via.placeholder.com/400x600.png?text=Miscellaneous+one");
     cursor: none;
-}
-.misc3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
+  }
+  .misc2 {
+    background-image: url("https://via.placeholder.com/400x600.png?text=Miscellaneous+two");
     cursor: none;
-}
+  }
+  .misc3 {
+    background-image: url("https://via.placeholder.com/400x600.png?text=Miscellaneous+three");
+    cursor: none;
+  }
+  

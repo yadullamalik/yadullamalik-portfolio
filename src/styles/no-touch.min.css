@@ -566,3 +566,12 @@ input:checked + .slider:before {
     margin-right: auto;
   }
 }
+
+.project-card {
+  margin-left: 10%;
+}
+
+/* #contact{
+  width: 100%;
+  margin-left: 110%;
+} */

@@ -9,7 +9,7 @@ const animation = {
 };
 // Change your display name on tha landing display
 const header = {
-  name: "a Human",
+  name: "Yadulla Malik Shaik",
 };
 const background = {
   // Options: Snow or Particle
@@ -20,7 +20,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    "A passionate full stack web developer with an ability to write efficient code using javascript, and build interactive and user friendly websites. Looking forward to improving and utilizing skills and contributing to the growth of the company.",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -42,88 +42,91 @@ const skillsBar = [
     faClass: "fab fa-js",
   },
   {
-    name: "SASS",
+    name: "React",
     // svg: '',
-    faClass: "fab fa-sass",
+    faClass: "fab fa-react",
   },
-  {
-    name: "Node",
-    // svg: '',
-    faClass: "fab fa-node",
-  },
-  {
-    name: "Python",
-    // svg: '',
-    faClass: "fab fa-python",
-  },
-  {
-    name: "Java",
-    // svg: '',
-    faClass: "fab fa-java",
-  },
-  {
-    name: "PHP",
-    // svg: '',
-    faClass: "fab fa-php",
-  },
-  {
-    name: "Database",
-    // svg: '',
-    faClass: "fas fa-database",
-  },
-  {
-    name: "AWS",
-    // svg: '',
-    faClass: "fab fa-aws",
-  },
+  // {
+  //   name: "Redux",
+  //   // svg: '',
+  //   faClass: "fab fa-redux",
+  // },
+  // {
+  //   name: "Python",
+  //   // svg: '',
+  //   faClass: "fab fa-python",
+  // },
+  // {
+  //   name: "Java",
+  //   // svg: '',
+  //   faClass: "fab fa-java",
+  // },
+  // {
+  //   name: "PHP",
+  //   // svg: '',
+  //   faClass: "fab fa-php",
+  // },
+  // {
+  //   name: "Database",
+  //   // svg: '',
+  //   faClass: "fas fa-database",
+  // },
+  // {
+  //   name: "AWS",
+  //   // svg: '',
+  //   faClass: "fab fa-aws",
+  // },
 ];
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
-const section3Title = "Past Projects";
+const section3Title = "Projects";
 const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "Project 1",
+    name: "Adidas Clone",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "https://github.com/rohit753/Adidas-Clone.git",
+    live: "https://rohit753.github.io/Adidas-Clone/ ",
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Project 2",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Myntra Clone",
+    skills: ["HTML, CSS, JS, MongoDB, EJS, NodeJS JSON"],
+    url: "https://github.com/Ravindraapps/myntraClone.git",
+    live: "https://cranky-knuth-b30b90.netlify.app",
   },
-  {
-    // Add image in './styles/images.css' in #project3
-    id: "project3",
-    name: "Project 3",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project4
-    id: "project4",
-    name: "Project 4",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project5
-    id: "project5",
-    name: "Project 5",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project6
-    id: "project6",
-    name: "Project 6",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
+  // {
+  //   // Add image in './styles/images.css' in #project3
+  //   id: "project3",
+  //   name: "Myntra Back-end",
+  //   skills: ["HTML, CSS, JS, MongoDB, EJS, NodeJS JSON"],
+  //   url: "https://github.com/Ravindraapps/myntraClone",
+  //   live:"https://cranky-knuth-b30b90.netlify.app"
+  // },
+  // {
+  //   // Add image in './styles/images.css' in #project4
+  //   id: "project4",
+  //   name: "Project 4",
+  //   skills: ["HTML, CSS, JS"],
+  //   url: "https://github.com/kaustubhai",
+  // },
+  // {
+  //   // Add image in './styles/images.css' in #project5
+  //   id: "project5",
+  //   name: "Project 5",
+  //   skills: ["HTML, CSS, JS"],
+  //   url: "https://github.com/kaustubhai",
+  // },
+  // {
+  //   // Add image in './styles/images.css' in #project6
+  //   id: "project6",
+  //   name: "Project 6",
+  //   skills: ["HTML, CSS, JS"],
+  //   url: "https://github.com/kaustubhai",
+  // },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
@@ -154,20 +157,20 @@ const miscellaneous = [
 // If you hacve the link already, paste it in the contactUrl below
 const section5Title = "Get in Touch";
 const contact = {
-  pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
+  pitch: "Lets Connect, feel free to message",
   copyright: "Kaustubh Mishra",
-  contactUrl: "",
+  contactUrl: "shaikyadullamalik123@gmail.com",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
-  // twitter: "https://twitter.com",
-  instagram: "https://instagram.com",
-  linkedin: "https://linkedin.com",
-  resume: "https://novoresume.com/",
+  github: "https://github.com/yadullamalik",
+  // facebook: "https://facebook.com",
+  twitter: "https://twitter.com/yadulla_malik",
+  // instagram: "https://instagram.com",
+  linkedin: "https://www.linkedin.com/in/yadulla-malik-shaik-07258b226/",
+  resume:
+    "https://drive.google.com/file/d/14vkWQueNF5_qV5vBsVtYvDhnPmuaPyhF/view?usp=sharing",
 };
 // Dont change anything here
 export {
@@ -177,7 +180,6 @@ export {
   about,
   skillsBar,
   projects,
-  miscellaneous,
   contact,
   social,
   section2title,
