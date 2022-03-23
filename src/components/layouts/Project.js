@@ -1,11 +1,15 @@
 import React from "react";
 
-const Project = ({ id, name, url, skills, live }) => {
+const Project = ({ id, name, url, skills, live, desc }) => {
   return (
     <div data-aos="fade-up" className=" col-12 col-lg-4 project-card">
       <div className="image-project">
         <div className={`img-pro ${id}`}></div>
       </div>
+      <h2>{name}</h2>
+      <p className="desc">{desc}</p>
+
+      {skills && <h3>{skills.map((skill) => skill)}</h3>}
       <a
         title={url}
         className="project-name"
@@ -13,9 +17,8 @@ const Project = ({ id, name, url, skills, live }) => {
         target="_blank"
         href={url}
       >
-        <h2>{name}</h2>
+        <h2>Github</h2>
       </a>
-      {skills && <h3>{skills.map((skill) => skill)}</h3>}
       <a
         title={live}
         className="project-name"

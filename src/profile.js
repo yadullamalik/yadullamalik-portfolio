@@ -89,6 +89,7 @@ const projects = [
     skills: ["HTML, CSS, JS"],
     url: "https://github.com/rohit753/Adidas-Clone.git",
     live: "https://rohit753.github.io/Adidas-Clone/ ",
+    desc: "A web application for online shopping of shoes, clothing and accessories.",
   },
   {
     // Add image in './styles/images.css' in #project2
@@ -97,6 +98,7 @@ const projects = [
     skills: ["HTML, CSS, JS, MongoDB, EJS, NodeJS JSON"],
     url: "https://github.com/Ravindraapps/myntraClone.git",
     live: "https://cranky-knuth-b30b90.netlify.app",
+    desc: "A web application developed for online shopping for women, men and kids.",
   },
   // {
   //   // Add image in './styles/images.css' in #project3

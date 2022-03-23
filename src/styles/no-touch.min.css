@@ -169,6 +169,11 @@ button:focus {
   margin-left: 3%;
   font-weight: 500;
 }
+.desc {
+  margin-left: 3%;
+  font-weight: 500;
+  margin-top: 10px;
+}
 .project-card h2:hover {
   color: var(--hover-color);
   text-decoration: none;
